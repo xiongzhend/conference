@@ -44,11 +44,17 @@ body{
   #topnav .container {
     background: rgba(0,0,0,1);
   }
-
+  .corange-btn.mar-rt15{
+    margin: 0 0 10px;
+  }
+  .pd-lt {
+    padding-left: 15px !important;
+  }
 }
 #topnav #navigation.en-lspe {
   left: 60px;
 }
+
 /*lang end*/
 
 body.top-padding {
@@ -256,10 +262,16 @@ section.xh-container/*, section.index-bgdd*/{
   display: block;
 }
 .clogo-img{
-  margin: 200px 0;
+  margin: 200px 0 0;
   width: 450px;
 }
-
+.meet-title{
+  font-size: 44px;
+  color: #fff;
+  top: -60px;
+  position: relative;
+  left: 58px;
+}
 /*jieshao*/
 .ad-h2title{
   font-size: 28px;
@@ -334,16 +346,17 @@ h3.page-title span {
  .content-text{ font-size: 18px; margin-bottom: 3em;  text-align:left; column-gap:50px; }
  .fh-intro{
    text-indent: 30px;
+   margin: 0;
  }
 .content-text p { margin:0px; padding:0px;  }
  .features ul{margin:0px -30px;}
  .features li{width: 25%; list-style: none; display: block; float: left;}
  .features .circle{font-size: 20px; font-weight: bold; /*width: 134px; height: 134px;  padding: 0px; margin: 0 auto; position:relative;*/ }
  .features .circle .ci-cont {     text-align: center;/*width:138px; height:138px; position:absolute; top:0px; left:0px; */padding-top:35px; }
- .features .circle1{background: url("../images/q2_icon_sc_1.png") no-repeat center center;   border-radius:100%; border:2px solid #adba7b; }
- .features .circle2{background: url("../images/q2_icon_sc_2.png") no-repeat center center;   border-radius:100%; border:2px solid #3fc5fd; }
- .features .circle3{background: url("../images/q2_icon_sc_3.png") no-repeat center center;   border-radius:100%; border:2px solid #fc8653; }
-.features .circle4{background: url("../images/q2_icon_sc_4.png") no-repeat center center;   border-radius:100%; border:2px solid #fc4fa8; }
+ .features .circle1{  border-radius:100%; border:2px solid #adba7b; }
+ .features .circle2{   border-radius:100%; border:2px solid #3fc5fd; }
+ .features .circle3{  border-radius:100%; border:2px solid #fc8653; }
+.features .circle4{   border-radius:100%; border:2px solid #fc4fa8; }
 .en-keyw .ci-cont {
   font-size: 14px;
 }
@@ -360,14 +373,21 @@ h3.page-title span {
 .contact-us{
   color: #fff;
   font-size: 24px;
+  margin-bottom: 30px;
 }
 .contact-usstyle{
   color: #ff6600;
-  text-align: center;
-  margin: 30px 0;
-  height: 30px;
+  /*text-align: center;*/
+  margin: 10px 0;
+  /*height: 30px;*/
 }
-
+.row-fbox{
+  margin-top: 15px;
+  overflow: hidden;
+}
+.pd-lt{
+  padding-left: 130px;
+}
 /*mask*/
 .theme-popover-mask {
   z-index: 9998;
@@ -413,9 +433,7 @@ h3.page-title span {
   margin-top: 50px !important;
 }
 .form-control {
-
   border: 1px solid #fc4434;
-
 }
 
 
